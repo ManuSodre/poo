@@ -6,6 +6,7 @@
 #include "Resource.h"
 
 class Worker{
+public:
 	std::string name;
 	int level;
 	int amount;

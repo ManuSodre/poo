@@ -5,6 +5,7 @@
 #include <string>
 
 class Resource{
+public:
 	std::string name;
 	int amount;
 	enum material {Water, Iron, Wood, Stone, Food, Population};

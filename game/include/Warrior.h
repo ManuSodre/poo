@@ -5,18 +5,20 @@
 #include <string>
 
 class Warrior{
+public:
 	std::string name;
 	int level;
 	int amount;
 	int damage;
 	enum tipo { Spadachim, Warriorr, Archer, Mage, Fighters};
-
+	Resource * cost;
 
 	Warrior(std::string,
 		int,
 		int,
 		int,
-		enum);
+		enum, 
+		Resource *);
 		
 	~Warrior();
 
